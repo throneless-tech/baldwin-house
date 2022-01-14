@@ -30,6 +30,7 @@ export default function Home() {
         <Container sx={{ textAlign: "center" }}>
           <Typography component="h1" variant="h2" gutterBottom>Baldwin House Community Collective</Typography>
           <Button href="https://givebutter.com/baldwinhouse" color="success" variant="outlined" sx={{ fontSize: 20, marginBottom: 2 }}>Donate</Button>
+          <br/>
           <Image src={growthImg.src} className={styles.img} width="400" height="500" />
         </Container>
         <Container maxWidth="md">
