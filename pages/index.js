@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 // MUI imports
@@ -29,8 +30,7 @@ export default function Home() {
         <Container sx={{ textAlign: "center" }}>
           <Typography component="h1" variant="h2" gutterBottom>Baldwin House Community Collective</Typography>
           <Button href="https://givebutter.com/baldwinhouse" color="success" variant="outlined" sx={{ fontSize: 20, marginBottom: 2 }}>Donate</Button>
-
-          <img src={growthImg.src} className={styles.img} />
+          <Image src={growthImg.src} className={styles.img} />
         </Container>
         <Container maxWidth="md">
           <Typography component="h2" variant="h3" gutterBottom>About</Typography>
@@ -43,18 +43,18 @@ export default function Home() {
           </Typography>
           <Typography component="h2" variant="h3" gutterBottom>Our mission</Typography>
           <Typography component="div" variant="body1" sx={{ fontSize: 24 }} gutterBottom>
-          To ensure and sustain our collective liberated future in the Howard University neighborhood of Ward 1 and across DC in which safe, stable, and healthy housing, housing communities, neighborhoods, and organizing spaces are grounded in Black, Latinx, native Washingtonian, and other frontline leadership - centering communities that have been historically excluded from generational property ownership. The goal is to create a model of intentional collective living and collective spaces that allow communities the safety to grow, create, and thrive and provides an alternative to break the cycle of displacement and gentrification. Baldwin House would serve both as an affordable residential cooperative and as a commercial hub for Ward 1 Mutual Aid operations, where residents and neighbors contribute to the space.
+            To ensure and sustain our collective liberated future in the Howard University neighborhood of Ward 1 and across DC in which safe, stable, and healthy housing, housing communities, neighborhoods, and organizing spaces are grounded in Black, Latinx, native Washingtonian, and other frontline leadership - centering communities that have been historically excluded from generational property ownership. The goal is to create a model of intentional collective living and collective spaces that allow communities the safety to grow, create, and thrive and provides an alternative to break the cycle of displacement and gentrification. Baldwin House would serve both as an affordable residential cooperative and as a commercial hub for Ward 1 Mutual Aid operations, where residents and neighbors contribute to the space.
           </Typography>
           <Typography component="h2" variant="h3" gutterBottom>Our Vision</Typography>
           <Typography component="div" variant="body1" sx={{ fontSize: 24 }} gutterBottom>
-          To learn and practice how to build a concrete alternative to commodified, displacement-driven housing and development through the purchase, renovation, transition, and collective & cooperative care by a mutual aid group of a multifamily and office building that would otherwise contribute to gentrification, significant harms to resident health and wellbeing, and community cultural loss.
+            To learn and practice how to build a concrete alternative to commodified, displacement-driven housing and development through the purchase, renovation, transition, and collective & cooperative care by a mutual aid group of a multifamily and office building that would otherwise contribute to gentrification, significant harms to resident health and wellbeing, and community cultural loss.
           </Typography>
         </Container>
       </main>
 
       <footer>
         <Container sx={{ marginTop: 4 }}>
-          <Typography component="span" variant="body2" sx={{ fontSize: 16 }}>Image credit: "What Can We Grow From Crisis" by Pete Railand.{' '}</Typography>
+          <Typography component="span" variant="body2" sx={{ fontSize: 16 }}>Image credit: “What Can We Grow From Crisis” by Pete Railand.{' '}</Typography>
           <Typography component="span" variant="body2" sx={{ fontSize: 16 }}>This site was built with love by{' '}</Typography>
           <Link href="https://throneless.tech" variant="body2" sx={{ fontSize: 16 }}>Throneless Tech</Link>
           <Typography component="span" variant="body2" sx={{ fontSize: 16 }}>.</Typography>
